@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --background-color: #0e0d0d;
+  --text-color: #f7f2ec;
+}
+
+.dark-mode {
+  --background-color: #f7f2ec;
+  --text-color: #0e0d0d;
+}
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
