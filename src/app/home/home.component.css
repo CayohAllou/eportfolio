@@ -1,6 +1,209 @@
-.container {
-    margin: 0 100px;
+*{
+    box-sizing: border-box;
+  }
+  
+  body, html {
+     font-family: 'Roboto Slab', serif;
+      margin: 0;
+    width: 100%;
+    height: 100%;
+      padding: 0;
+  }
+  
+  body {
+    background-color: #D2DBDD;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* SECTION 1 */
+.section1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 .homeLogo {
-   margin: 100px 470px;
+width: 101%;
+margin-top: 10%;
 }
+#Hheader {
+margin-top: 20%;
+margin-left:10%;
+text-align: left;
+}
+#Hheader h3{
+font-style: italic;
+font-size: 20px;
+}
+#Hheader p {
+font-family:'Raleway', sans-serif;
+font-size: 80px;
+margin-right: 20%;
+}
+.Hheaderbtn {
+align-items: center;
+margin-top: 5%;
+margin-left: 50%;
+font-family: 'Raleway', sans-serif;
+}
+#Hheaderbtn {
+margin: 10px;
+}
+  /* SECTION 2 */
+.section2 {
+background-color: var(--text-color);
+color: var(--background-color);
+text-align: center;
+font-family:'Raleway', sans-serif;
+padding: 2%;
+margin-top: 8%;
+}
+.section2 img {
+  margin: 1%;
+}
+
+
+.section2 h2 {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 30px;
+  text-align: left;
+}
+
+.section2 p {
+  margin-left: 10%;
+  font-size: 20px;
+  text-align: left;
+}
+
+  /* SECTION 3 */
+  .cards {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      max-width: 80%;
+      margin: 50px;
+      margin-left: 200px;
+  }
+  
+  .card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('https://media-hosting.imagekit.io//9edb8e53e8544cd2/retroseoul.png?Expires=1837527110&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aRJclgSImUnhzkzqfkZ~kTnzuF8uO2SoJnASSBOQ~WP1~LV-g5o1MOltIUQDb6DA5wcnVx-P9a46UJcFEMZ5qYFMQCBr5WoOz3w3HPoTm9wcGhHZD0C6HPhvdzeKvSSBuN6mSL2xP1oSgkUlRd-oEPUBGU9ykvbKND0s6SlpW6Ebx17sQKMaFMLeo3TtgkpFBv9w2hD71NNKt3nHkdSP49LwhQNYeOMuxr0~qMbgdh~ZIm-hxFGIeFTFgZ-VoNaT1Gsg3j-tjMpqXpE-4hdObaaMOTw-YG0mlUojQawZN7RHjIn4hvB~4FWrWczlaa227~GwDeT1ANLwT05SuPVRrw__');
+  }
+  
+  .card--2 .card__img, .card--2 .card__img--hover {
+      background-image: url('https://media-hosting.imagekit.io//6fb5da3e12ad41ed/fhaund%20it%20(1).png?Expires=1836532494&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yb0pkmR15rxLJFqET92c-Wd89ut-lBgoYRMQXghgzApwyPwVh8G~B7Plj5WSq-LwsDXO~WR3FqcPzR1OAndLBRYl6c8DwqJ41YxaG7nUh-YliqH1MuyuAWY4ZwTHW1DWP7FnnZinvFlrqfEUGPzKqW7G89dAJR6P30wXW1CdweKTvF~sqlxwKxI2ECX71gYAKYj0WAHo-Dn4P7ULYo0WzG0vumNVGIbFtFUvI1ON2cMyPXexom7kaj66YVt6Au6VNW0bRqMv3xIKqmbxqDCV-zuSoa44MDMX23sAYvlsp5Uac6kD4kyHz2xL8-dliI47C5QAuxhdUszkA5Bo4r8PvQ__');
+  }
+  
+  .card--3 .card__img, .card--3 .card__img--hover {
+      background-image: url('https://media-hosting.imagekit.io//a3eb2461c7884448/organicGlow_Mockup.png?Expires=1836532006&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tKeYoodVO4JPPMTupPcYgRslniDDg5TcAvQ3Wd0hyzNkIoztR9hbM8BombmzbFtngs3XUC-zpKSCbkY1uPOWl-ZbKIHs-uIqvTMjhGyqIMaru0LyPsqGq-CZ9lSjORrMb6VWQ3dszoeLbSSdKyeCkK6~WIf89tixG01S8s56amfuFIDymaExUhjBc4cgiyZTdQ7YGmIWQIfgkoPS2dqvC9r5tLNN3-h4kynyqz1WBRL9hys1jbL1Cz9wFXWPSVSS-nN4KH7gzUhckkywFUWpLbK-wvVS9GrL-IEmKHTbh6AWR5k86FIlkPM6ANJ7Fzy7xxXcJQsKi8N15YDW3kKi3A__');
+  }
+  
+  .card__like {
+      width: 18px;
+  }
+  
+  .card__clock-info {
+      float: right;
+  }
+  
+  .card__img {
+    visibility: hidden;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+  }
+  
+  .card__info-hover {
+      position: absolute;
+      padding: 16px;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+  }
+  
+  .card__img--hover {
+    transition: 0.2s all ease-out;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+    position: absolute;
+      height: 235px;
+    border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+    
+  }
+  .card {
+    margin-right: 25px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 33.3%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  }
+  .card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+      transform: scale(1.10, 1.10);
+  }
+  
+  .card__info {
+    z-index: 2;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+  }
+  
+  .card__category {
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-weight: 500;
+    color: #868686;
+  }
+  
+  .card__title {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  .card__by {
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+  }
+  
+  .card:hover .card__img--hover {
+      height: 100%;
+      opacity: 0.3;
+  }
+  
+  .card:hover .card__info {
+      background-color: transparent;
+      position: relative;
+  }
+  
+  .card:hover .card__info-hover {
+      opacity: 1;
+  }
+
+  .projects {
+    margin-top: 8%;
+  }
+

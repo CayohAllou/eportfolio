@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavigationComponent } from '../navigation/navigation.component';
 
+
 @Component({
   selector: 'app-about',
   standalone: true,
@@ -9,5 +10,5 @@ import { NavigationComponent } from '../navigation/navigation.component';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-
+  pageUrl: string = 'assets/certificates.html'; // Set the file path
 }

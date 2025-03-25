@@ -1,0 +1,54 @@
+
+/*About*/
+.container{
+    margin-bottom:80px;
+    margin-top:80px;
+}
+h1 {
+    margin-top:80px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.featurette {
+    margin-top:100px;
+}
+.featurette-heading {
+  margin-top:100px;
+}
+.icons {
+    text-align: center;
+    display: center;
+}
+.Aicons {
+    height: 70px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px; 
+}
+  
+.progress {
+    margin: 30px;
+}
+#interests {
+  text-align: left;
+}
+
+#skills {
+    text-align: right;
+}
+
+.resumebtn{
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.tools{
+  padding-left: 3%;
+  padding-right: 2%;
+  margin: 1%;
+}
+
+
